@@ -82,6 +82,9 @@
 .lesson-four-task-fourteen input:valid {
     background: green;
 }
+.lesson-four-task-fourteen input:invalid {
+    background: red;
+}
 
 /* <!--    Завдання №15. Застосувати селектор :optional до текстового поля форми,
   яке не є обов'язковим для заповнення, і змінити його фон на червоний,. -->
