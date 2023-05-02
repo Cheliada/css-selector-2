@@ -43,10 +43,11 @@
 /* <!--    Завдання №8. Змініть колір тексту на білий та фон елемента на синій при натискані відповідного чекбоксу: -->
 
 <!--      Використовуйте цей селектор :checked --> */
-.lesson-four-task-eight div[id='target'] {
+#checkbox:checked ~ #target {
     color: white;
     background: blue;
 }
+
 /* <!--    Завдання №9. Змінити колір тексту на синій для усіх елементів на сторінці, які написані українською мовою. -->
 
 <!--      Використовуйте цей селектор :lang() --> */
@@ -117,13 +118,13 @@ background: red;
 /* <!--    Завдання №19. Застосуйте селектор :focus-within до блоку,
 
   який змінює колір тексту на білий та фоновий колір на жовтий при активному стані. --> */
-.lesson-four-task-nineteen:focus-within {
+.lesson-four-task-nineteen .btn-group :focus-within {
     background: yellow;
     color: white;
-}
+  }
 /* <!--    Завдання №20. При валідації форми з помилкою, змінюйте колір фону на червоний. -->
 
 <!--      Використовуйте цей селектор :invalid--> */
-.lesson-four-task-twenty form label:invalid {
+.lesson-four-task-twenty input:invalid {
     background: red;
-}
+  }
